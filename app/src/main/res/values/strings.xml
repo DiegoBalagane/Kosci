@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Kości</string>
+    <string name="tr_jka">trójka</string>
+    <string name="sze">sześć</string>
+    <string name="bonus_35">BONUS +35</string>
+    <string name="pi">pięć</string>
+    <string name="cztery">cztery</string>
+    <string name="trzy">trzy</string>
+    <string name="dwa">dwa</string>
+    <string name="jeden">jeden</string>
+    <string name="kareta">kareta</string>
+    <string name="ful">ful</string>
+    <string name="ma_y_strit">mały strit</string>
+    <string name="du_y_strit">duży strit</string>
+    <string name="genera">generał</string>
+    <string name="szansa">szansa</string>
+    <string name="player_1">Gracz 1</string>
+    <string name="player_2">Gracz 2</string>
+    <string name="_699">699</string>
+    <string name="_63_63">0/63</string>
+    <string name="_3_throws">3 RZUTY</string>
+    <string name="_0">0</string>
+    <string name="dialog_start_game" />
+    <string name="start" />
+    <string name="cancel" />
+    <string name="amount_of_dices">Liczba kości:</string>
+    <string name="_5_dices">5 kości</string>
+    <string name="_3_dices">3 kości</string>
+    <string name="apply">ZATWIERDŹ</string>
+    <string name="reset">ZRESETUJ GRĘ</string>
+</resources>

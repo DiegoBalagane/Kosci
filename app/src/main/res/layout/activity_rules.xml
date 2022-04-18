@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RulesActivity">
+
+    <TextView
+        android:id="@+id/rulesTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Aplikacja przedstawia rozbudowaną grę w kości nawiązującą do pokera. Do wyboru jest możliwośc gry 5 kośćmi (średni poziom trudności) bądź też 3 kośćmi (trudny poziom).
+Przed każdym rzutem gracz może wybrać za pomocą spinnera ile chce posiadać możliwych rzutów. Możliwe jest blokowanie kości przed rzutem poprzez kliknięcie na wybraną kość.
+Gracz po wykonaniu pierwszego rzutu może w każdej chwili wybrać pole z punktami, które chce otrzymać. Po wybraniu jednego pola nie można go pownie wybrać.
+Zawodnik ma możliwość otrzymania bonus dodatkowych 35 punktów w przypadku gdy uzbiera minimum 63 punkty z pierwszych sześciu pól. Gra kończy się gdy zawodnicy zaznaczą wszystkie możliwe pola.
+\n \nOznaczenia:\n
+Trójka - 3 kości z tą samą wartością\n
+Kareta - 4 kości z tą samą wartością\n
+Ful - 3 jednakowe kości i 2 jednakowe kości\n
+Mały strit - 4 kości tworzące wspólną kombinację\n
+Duży strit - 5 kości tworzących wspólną kombinację\n
+Generał - 5 jednakowych kości\n
+Szansa - suma kości"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
